@@ -2,6 +2,11 @@
 
 Testing memleaks with /usr/share/bcc/tools/memleak
 
+Prerequsites:
+```
+sudo yum install perf bcc-tools gawk kernel-devel
+```
+
 output:
 ```
 $ ./test.sh
