@@ -3,7 +3,7 @@
 #include <unistd.h>
 #include <stdlib.h>
 
-void badfun(int num, int leak) 
+void badfun(int num, int leak)
 {
   char * c = malloc(100);
 
@@ -17,7 +17,7 @@ void badfun(int num, int leak)
   return;
 }
 
-int main(int argc, char * argv[]) 
+int main(int argc, char * argv[])
 {
   sleep(5);
   int times = 0;
