@@ -1,6 +1,6 @@
 # memleak-bcc-exmaple
 
-Testing memleaks with /usr/share/bcc/tools/memleak
+Testing memleaks with [/usr/share/bcc/tools/memleak](https://github.com/iovisor/bcc/blob/master/tools/memleak.py)
 
 Prerequsites:
 ```
